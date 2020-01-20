@@ -1,0 +1,9 @@
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Defines material boundaries and properties (bap = boundaries and properties)
+#  Values are: Location of the right boundary of the material, propertyindex of the material
+#  The last entry is always the maximum value of the Grid
+#  Boundaries can be entered either in physical coordinates or in element numbers.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BEGIN 
+5000.0 1
+END

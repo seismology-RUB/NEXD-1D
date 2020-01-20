@@ -1,0 +1,9 @@
+#-----------------------------------------------------------------------------------
+# Defines materials:
+# First line: Number of material types
+# following lines: values of material parameters (rho, v)
+#-------------------------------------------------------------------------------------
+BEGIN
+1
+2200.   3000.
+END

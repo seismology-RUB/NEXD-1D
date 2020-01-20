@@ -1,0 +1,297 @@
+--------------------------------------------------------------------------------
+|              Title of the simulation: Example                                |
+--------------------------------------------------------------------------------
+|                           Create log:          T                             |
+|                           Debug mode:          T                             |
+|                              Limiter: none                                   |
+|                              Compare:          F                             |
+--------------------------------------------------------------------------------
+|                                 Mesh Parameters                              |
+--------------------------------------------------------------------------------
+|                                 xmin:        0.0                             |
+|                                 xmax:     2000.0                             |
+|                   Number of elements:        200                             |
+|               Order of approximation:          4                             |
+|                  Ghost-elements/side:          2                             |
+|              Number of faces/element:          2                             |
+|                Number of points/face:          1                             |
+|       Boundary condition (left side): reflecting                             |
+|      Boundary condition (right side): absorbing                              |
+--------------------------------------------------------------------------------
+|                                Movie Parameters                              |
+--------------------------------------------------------------------------------
+|                           Save movie:          T                             |
+|   Number of timesteps for movieframe:        100                             |
+--------------------------------------------------------------------------------
+|                                      Environment                             |
+--------------------------------------------------------------------------------
+|                          Poroelastic:          F                             |
+|          Number of immiscible fluids:          0                             |
+|                 Calculate tortuosity:          F                             |
+|                     Coordinate input:  physical                              |
+|                            Materials:          1                             |
+|                              Sources:          1                             |
+|                             Receiver:         11                             |
+|                      Slip Interfaces:          1                             |
+--------------------------------------------------------------------------------
+|                                 Timeintegration                              |
+--------------------------------------------------------------------------------
+|                                 Type:          5                             |
+|                  Number of timesteps:       2000                             |
+|                               autodt:          T                             |
+|                            cfl value:       0.70                             |
+|                      Timeintegration: 4th-Order Runge-Kutta                  |
+|                            Time step: 2.916667E-04                           |
+|                                DXMIN: 1.000000E+01                           |
+|                     Maximum velocity: 3000.00000                             |
+|                     Minimum velocity: 3000.00000                             |
+--------------------------------------------------------------------------------
+|                               Data on sources:                               |
+|------------------------------------------------------------------------------|
+|   Number   |    Type    |  Position  | Peak Freq. |  Amplitude |  Direction  |
+|------------|------------|------------|------------|------------|-------------|
+|       1    |     ricker |     500.00 | 1.0000E+02 | 1.0000E+06 |       B     |
+|------------------------------------------------------------------------------|
+|                              Data on Receiver:                               |
+|------------------------------------------------------------------------------|
+|   Number   |  Position  |                                                    |
+|------------|------------|----------------------------------------------------|
+|       1    |       0.00 |                                                    |
+|       2    |     200.00 |                                                    |
+|       3    |     400.00 |                                                    |
+|       4    |     600.00 |                                                    |
+|       5    |     800.00 |                                                    |
+|       6    |    1000.00 |                                                    |
+|       7    |    1200.00 |                                                    |
+|       8    |    1400.00 |                                                    |
+|       9    |    1600.00 |                                                    |
+|      10    |    1800.00 |                                                    |
+|      11    |    2000.00 |                                                    |
+|------------------------------------------------------------------------------|
+|                            Data on Interfaces:                               |
+|------------------------------------------------------------------------------|
+|       No.      |         type        |        Loc.       |         nu        |
+|----------------|---------------------|-------------------|-------------------|
+|      0001      |       elastic       |       1000.00     |       1000.00     |
+|------------------------------------------------------------------------------|
+ 
+Time step number     100 (t =  2.92E-02 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.10E-04 s
+Current kinetic energy density: 1.59385979E+00
+Current maximum norm of V     : 7.47011453E-02
+Current maximum norm of Sigma : 4.93027531E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+           5 % of the simulation are done.
+
+Time step number     200 (t =  5.83E-02 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 01 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.60E-04 s
+Current kinetic energy density: 1.55838954E+00
+Current maximum norm of V     : 7.48338327E-02
+Current maximum norm of Sigma : 4.93903281E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          10 % of the simulation are done.
+
+Time step number     300 (t =  8.75E-02 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.70E-04 s
+Current kinetic energy density: 1.20654452E+00
+Current maximum norm of V     : 7.20543265E-02
+Current maximum norm of Sigma : 4.75558438E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          15 % of the simulation are done.
+
+Time step number     400 (t =  1.17E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.62E-04 s
+Current kinetic energy density: 1.23420107E+00
+Current maximum norm of V     : 6.98084757E-02
+Current maximum norm of Sigma : 4.60735875E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          20 % of the simulation are done.
+
+Time step number     500 (t =  1.46E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.54E-04 s
+Current kinetic energy density: 1.57250524E+00
+Current maximum norm of V     : 7.37945512E-02
+Current maximum norm of Sigma : 4.87043906E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          25 % of the simulation are done.
+
+Time step number     600 (t =  1.75E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.45E-04 s
+Current kinetic energy density: 1.55050135E+00
+Current maximum norm of V     : 7.18361288E-02
+Current maximum norm of Sigma : 5.03282312E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          30 % of the simulation are done.
+
+Time step number     700 (t =  2.04E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.46E-04 s
+Current kinetic energy density: 1.28883827E+00
+Current maximum norm of V     : 7.12001771E-02
+Current maximum norm of Sigma : 4.69921000E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          35 % of the simulation are done.
+
+Time step number     800 (t =  2.33E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.46E-04 s
+Current kinetic energy density: 1.31538582E+00
+Current maximum norm of V     : 6.92485645E-02
+Current maximum norm of Sigma : 4.57040562E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          40 % of the simulation are done.
+
+Time step number     900 (t =  2.62E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.36E-04 s
+Current kinetic energy density: 1.48125029E+00
+Current maximum norm of V     : 7.30559900E-02
+Current maximum norm of Sigma : 4.82169500E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          45 % of the simulation are done.
+
+Time step number    1000 (t =  2.92E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 01 s
+Mean elapsed time per timestep:     5.17E-04 s
+Current kinetic energy density: 1.45281577E+00
+Current maximum norm of V     : 7.31311738E-02
+Current maximum norm of Sigma : 4.82665656E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          50 % of the simulation are done.
+
+Time step number    1100 (t =  3.21E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.94E-04 s
+Current kinetic energy density: 1.28727961E+00
+Current maximum norm of V     : 7.05315322E-02
+Current maximum norm of Sigma : 4.65508156E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          55 % of the simulation are done.
+
+Time step number    1200 (t =  3.50E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.79E-04 s
+Current kinetic energy density: 1.44345140E+00
+Current maximum norm of V     : 7.01843426E-02
+Current maximum norm of Sigma : 4.44238625E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          60 % of the simulation are done.
+
+Time step number    1300 (t =  3.79E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.62E-04 s
+Current kinetic energy density: 1.46911621E+00
+Current maximum norm of V     : 7.24257156E-02
+Current maximum norm of Sigma : 4.78009719E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          65 % of the simulation are done.
+
+Time step number    1400 (t =  4.08E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.51E-04 s
+Current kinetic energy density: 1.44352376E+00
+Current maximum norm of V     : 7.25077763E-02
+Current maximum norm of Sigma : 4.78551344E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          70 % of the simulation are done.
+
+Time step number    1500 (t =  4.37E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.42E-04 s
+Current kinetic energy density: 1.28537583E+00
+Current maximum norm of V     : 6.99791312E-02
+Current maximum norm of Sigma : 4.61862188E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          75 % of the simulation are done.
+
+Time step number    1600 (t =  4.67E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.34E-04 s
+Current kinetic energy density: 1.30668283E+00
+Current maximum norm of V     : 6.82775974E-02
+Current maximum norm of Sigma : 4.50632094E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          80 % of the simulation are done.
+
+Time step number    1700 (t =  4.96E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.22E-04 s
+Current kinetic energy density: 1.45824885E+00
+Current maximum norm of V     : 7.18669668E-02
+Current maximum norm of Sigma : 4.74323750E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          85 % of the simulation are done.
+
+Time step number    1800 (t =  5.25E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.17E-04 s
+Current kinetic energy density: 9.19343114E-01
+Current maximum norm of V     : 5.75410314E-02
+Current maximum norm of Sigma : 3.79770875E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          90 % of the simulation are done.
+
+Time step number    1900 (t =  5.54E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.11E-04 s
+Current kinetic energy density: 9.16812360E-01
+Current maximum norm of V     : 5.63560463E-02
+Current maximum norm of Sigma : 3.71949844E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+          95 % of the simulation are done.
+
+Time step number    2000 (t =  5.83E-01 s) out of    2000
+Elapsed time:                    0 h 00 m 00 s
+Estimated remaining time:        0 h 00 m 00 s
+Estimated total time:            0 h 00 m 00 s
+Mean elapsed time per timestep:     4.05E-04 s
+Current kinetic energy density: 8.64054918E-01
+Current maximum norm of V     : 5.89998439E-02
+Current maximum norm of Sigma : 3.89399062E+05
+This run will finish on: Tue Jan 07, 2020 at 18:20
+         100 % of the simulation are done.
+

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------------------------------
+#  Defines interfaces
+#  First line: Number of interface types
+#  Following lines: specification of interfaces from left to right
+#  type (elastic, viscoelastic "visco" or Standart Linear Solid "SLS"), 
+#  thickness of crack, density, velocity, dimensionless compliance, dimensionless fluidity, viscosity, chainlength, chaintype
+#-----------------------------------------------------------------------------------------------------------------
+BEGIN
+6
+elastic 1.e-3  1.0   0.4   1.     0.0   1.e01    0   -
+elastic 1.e-3  1.0   0.4   10.    0.0   1.e01    0   -
+elastic 1.e-3  1.0   0.4   100.   0.0   1.e01    0   -
+visco   1.e-3  1.0   0.4   10.    2.0   5.e-04   0   -
+SLS		1.e-3  1.0   0.4   10.    0.0   1.e01    4   maxwell 
+						   15.    2.0   5.e-04
+						   15.    2.0   5.e-04
+                           15.    2.0   5.e-04
+                           15.    2.0   5.e-04
+SLS		1.e-3  1.0   0.4   10.    0.0   1.e01    4   voigt
+						   15.    2.0   5.e-04
+						   15.    2.0   5.e-04
+                           15.    2.0   5.e-04
+                           15.    2.0   5.e-04
+END

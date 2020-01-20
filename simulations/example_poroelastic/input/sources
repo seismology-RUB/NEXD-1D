@@ -1,0 +1,15 @@
+#------------------------------------------------------------------------------------
+# Defines the parameters for the source wavelet(s)
+# From left to right: 
+#   if type is ricker, green or external: type, center, frequency, force (in N), B
+#   if type is sin2 or boxcartype:        type, center (complete wavelet must be on the grid!), width, amplitude, right- (R) or leftgoing (L)
+#    When chosing the boxcarsolution "center" is the position of the jump
+#------------------------------------------------------------------------------------
+BEGIN
+ricker      50.0       40.         1.0e6     B
+external   500.0  1000000.0        1.0e6     B
+green      500.0      400.         1.0e6     B
+sin2       210.0      200.0        1.0e-6    L
+sin2       790.0      200.0        1.0e-6    R
+sin2       550.0      100.0        1.0e-6    R
+END

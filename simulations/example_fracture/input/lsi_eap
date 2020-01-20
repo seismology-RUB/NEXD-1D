@@ -1,0 +1,7 @@
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Defines interface location and properties (eap = element and properties)
+#  Values are: Location, type (elastic, visco or SLS), width, density, name of the file containing the informations on springs and dashpots
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+BEGIN
+1000 1
+END

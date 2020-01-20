@@ -1,0 +1,49 @@
+# Parameterfile for 1D NDG Testcode
+
+# Title of the simulation
+title                 = Example                    #
+limiter               = none                       # select slope limiter: minmod, superbee, MC and none
+flux_type             = 0                          # Specifies how the fluxes are calculated: 
+                                                   # "0" Pre-calculated flux (only for elastic simulations), "1" Godunov, "2" Rusanov  
+
+# Convenience parameters
+log                   = .true.                     # "true" if log should be displayed on screen, otherwise "false"
+logfile               = .true.                     # "true" if a logfile is to be created, "false" if not.		
+debug                 = .true.                     # Parameter to enable, or disable output for debugging purposes
+compare               = .false.                    # set "true" if the solution is to be compared to an analytical solution. 
+
+# Meshparameters
+xmin                  = 0.0                        # minimum x-value
+xmax                  = 2000.0                        # maximum x-value
+ncell                 = 200                        # Number of elements
+n                     = 4                          # Order of approximtion
+nghost                = 2                          # Number of Ghostelements
+nfaces                = 2                          # Number of faces per element
+nfp                   = 1                          # Number of facepoints per element
+lbc                   = reflecting                 # boundary condition for the left side  (choices are absorbing, reflecting, periodic)	
+rbc                   = absorbing                  # boundary condition for the right side	
+
+# Parameters for Timeintegration
+tint                  = 5                          # Values are 1 for Euler, 3 for 3rd order SSP-Runge Kutta and 5 for 4th order Runge-Kutta (default is 5) 
+Nsteps                = 2000                       # Number of timesteps
+autodt                = .true.                     # automatic calculation of dt
+dt                    = 0.0                        # if autodt = .false. choose dt manually
+cfl                   = 0.7                        # cfl value for dt
+
+# Movieparameters
+movie                 = .true.                     # if "true" the a movie is created, otherwise "false"
+framestep             = 100                        # Number of timesteps for each frame of the movie
+
+# Material
+poroelastic           = .false.                    # Materials are poroelastic if .true. otherwise elastic
+fluidn                = 0                          # Number of immiscible fluids (either 1, i.e. saturated, or 2, i.e. unsaturated/saturated by 2 fluids)
+calculate_tortuosity  = .false.                    # Tortuosity is calculated according to Berryman (1980): T = 1+r(1-1/phi) (note, that if this is set to .true., in the file porousmaterial r has to be specified instead of T!)
+
+# Environment Variables
+physical_coordinates  = .true.                     # Select format of input for the locations of the Slip Interfaces and the material boundaries
+                                                   # .true. equals physical coordinates and .false. equals Element numbers. Default is .false.
+matn                  = 1                          # Number of (different) materials
+srcn                  = 1                          # Number of sources
+extwavelet            = input/1MHz0.5in_clean.txt  # File with external source wavelet
+lsin                  = 1                          # Number of Slipinterfaces
+recn                  = 11                         # Number of receivers

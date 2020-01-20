@@ -1,0 +1,10 @@
+#-----------------------------------------------------------------------------------
+#  Defines interfaces
+#  First line: Number of interface types
+#  Following lines: specification of interfaces from left to right
+#  type (elastic), relaxation frequency
+#-----------------------------------------------------------------------------------------------------------------
+BEGIN
+1
+elastic 1000
+END
